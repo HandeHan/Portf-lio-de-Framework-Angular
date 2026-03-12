@@ -1,21 +1,8 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { Component } from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { TasksComponent } from './components/tasks/tasks.component';
-
-@NgModule({
-  declarations: [
-    AppComponent,
-    TasksComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html'
 })
 
-export class AppModule { }
+export class AppComponent {}

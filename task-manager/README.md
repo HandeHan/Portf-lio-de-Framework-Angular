@@ -2,11 +2,39 @@
 
 Este repositório contém o desenvolvimento de um aplicativo web de gerenciamento de tarefas criado com Angular. O projeto permite que os usuários criem, editem, excluam e marquem tarefas como concluídas, oferecendo uma interface simples, organizada e responsiva.
 
+# Gerenciador de Tarefas Angular
+
+Este projeto consiste no desenvolvimento de um aplicativo web de gerenciamento de tarefas utilizando o framework Angular.
+
+## Funcionalidades
+
+- Criar tarefas
+- Marcar tarefas como concluídas
+- Excluir tarefas
+
+## Estrutura do Projeto
+
+O projeto foi organizado da seguinte forma:
+
+- **components**: contém os componentes da aplicação
+- **tasks**: componente responsável pelo gerenciamento de tarefas
+- **app.component**: componente raiz da aplicação
+- **app.module**: módulo principal do Angular
+
+## Tecnologias Utilizadas
+
+- Angular
+- TypeScript
+- HTML
+- CSS
+
 ```node
 
 task-manager
 │
 ├── package.json
+├── README.md
+├── .gitignore
 │
 └── src
     │
@@ -36,3 +64,9 @@ Dentro desse componente estão os arquivos tasks.component.ts, que contém a ló
 O componente é importado no app.component.html, permitindo que ele seja exibido na aplicação principal.
 
 Essa organização facilita a manutenção do código e permite que o projeto seja escalável, seguindo boas práticas do desenvolvimento com Angular.
+
+# Conclusão Pessoal
+
+O desenvolvimento deste projeto permitiu aplicar conceitos de desenvolvimento web utilizando o Angular, compreendendo melhor a organização de componentes, arquivos e diretórios dentro da estrutura do framework. A atividade contribuiu para fortalecer o entendimento sobre a criação de interfaces interativas e a lógica básica de gerenciamento de tarefas em aplicações web.
+
+

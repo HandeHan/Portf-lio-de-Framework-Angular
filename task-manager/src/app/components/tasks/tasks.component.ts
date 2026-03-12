@@ -12,13 +12,18 @@ export class TasksComponent {
   newTask = '';
 
   addTask() {
+
     if (this.newTask) {
+
       this.tasks.push({
         title: this.newTask,
         completed: false
       });
+
       this.newTask = '';
+
     }
+
   }
 
   deleteTask(index: number) {

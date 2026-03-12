@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html'
+import { AppComponent } from './app.component';
+import { TasksComponent } from './components/tasks/tasks.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    TasksComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule
+  ],
+  bootstrap: [AppComponent]
 })
 
-export class AppComponent {
-
-}
+export class AppModule {}
