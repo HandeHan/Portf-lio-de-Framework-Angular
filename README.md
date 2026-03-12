@@ -3,19 +3,29 @@
 Este repositório contém o desenvolvimento de um aplicativo web de gerenciamento de tarefas criado com Angular. O projeto permite que os usuários criem, editem, excluam e marquem tarefas como concluídas, oferecendo uma interface simples, organizada e responsiva.
 
 ```node
+
 task-manager
 │
-├── src
-│   └── app
-│       ├── components
-│       │   └── tasks
-│       │       ├── tasks.component.ts
-│       │       ├── tasks.component.html
-│       │       └── tasks.component.css
-│       │
-│       ├── app.component.ts
-│       ├── app.component.html
-│       └── app.module.ts
+├── package.json
+│
+└── src
+    │
+    ├── index.html
+    ├── main.ts
+    ├── styles.css
+    │
+    └── app
+        │
+        ├── app.module.ts
+        ├── app.component.ts
+        ├── app.component.html
+        ├── app.component.css
+        │
+        └── components
+            └── tasks
+                ├── tasks.component.ts
+                ├── tasks.component.html
+                └── tasks.component.css
 
 ```
 
