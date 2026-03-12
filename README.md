@@ -1,6 +1,8 @@
 # Portf-lio-de-Framework-Angular
+
 Este repositório contém o desenvolvimento de um aplicativo web de gerenciamento de tarefas criado com Angular. O projeto permite que os usuários criem, editem, excluam e marquem tarefas como concluídas, oferecendo uma interface simples, organizada e responsiva.
 
+```node
 task-manager
 │
 ├── src
@@ -14,6 +16,8 @@ task-manager
 │       ├── app.component.ts
 │       ├── app.component.html
 │       └── app.module.ts
+
+```
 
 Para desenvolver o aplicativo de gerenciamento de tarefas, o projeto Angular foi organizado em uma estrutura modular dentro da pasta app. Foi criado um componente chamado tasks, responsável pela interface e pelas funcionalidades do sistema.
 
