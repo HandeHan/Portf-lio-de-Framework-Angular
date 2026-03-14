@@ -65,7 +65,7 @@ O componente é importado no app.component.html, permitindo que ele seja exibido
 
 Essa organização facilita a manutenção do código e permite que o projeto seja escalável, seguindo boas práticas do desenvolvimento com Angular.
 
-# Conclusão Pessoal
+# Conclusão
 
 O desenvolvimento deste projeto permitiu aplicar conceitos de desenvolvimento web utilizando o Angular, compreendendo melhor a organização de componentes, arquivos e diretórios dentro da estrutura do framework. A atividade contribuiu para fortalecer o entendimento sobre a criação de interfaces interativas e a lógica básica de gerenciamento de tarefas em aplicações web.
 
